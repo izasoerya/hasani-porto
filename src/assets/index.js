@@ -36,6 +36,9 @@ import baznas from "./company/baznas.png";
 import BCA from "./company/BCA.png";
 
 import carrent from "./carrent.png";
+import IWMS from "./Project/iwms.jpeg";
+import SAVEFOREST from "./Project/saveforest.jpeg";
+import ERC from "./Project/erc.jpeg";
 import GANA from "./Project/GANA.png";
 import KANAL from "./Project/KANAL.png";
 import SEARCH from "./Project/SEARCH.png";
@@ -77,6 +80,9 @@ export {
   BCA,
   frogs,
   baznas,
+  IWMS,
+  SAVEFOREST,
+  ERC,
   KMB,
   DEMA,
   PERMI,

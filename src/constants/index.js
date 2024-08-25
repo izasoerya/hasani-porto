@@ -38,6 +38,9 @@ import {
   KOPMA,
   VIDEO,
   baznas,
+  IWMS,
+  SAVEFOREST,
+  ERC,
 } from "../assets";
 
 export const navLinks = [
@@ -233,28 +236,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Game Asset Nusantara",
+    name: "Integrated Watershed Monitoring System",
     description:
-      "Website-based game asset sales platform built using the Laravel framework, with Ahmad Hamam and Farhan Iqbal during their internship at BRIN RI",
+      "IWMS is a monitoring website featuring three concurrent monitoring systems: Modified Simple Rain Gauge Device (MOdAthus), Mobile Air Pollution Monitoring System and Instrumentation (SiPuber), and Water Quality Monitoring System (WaterQ). Please note that it can only be accessed on a laptop or PC.",
     tags: [
       {
-        name: "laravel",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "MySQL",
+        name: "Next JS",
         color: "green-text-gradient",
       },
       {
-        name: "Bootsrap",
+        name: "Docker",
         color: "pink-text-gradient",
       },
     ],
-    image: GANA,
+    image: IWMS,
     source_code_link: "https://github.com/gghozzit/SellingAssetsNusantara.git",
   },
   {
-    name: "Kanal Berita",
+    name: "Save Forest",
     description:
       "A website-based news platform built using PHP and MySQL as the database, a display is available for users and an admin dashboard used to manage content on news channels.",
     tags: [
@@ -271,95 +274,95 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: KANAL,
+    image: SAVEFOREST,
     source_code_link: "https://github.com/gghozzit/KanalBerita.git",
   },
   {
-    name: "Tahu Seacrh",
+    name: "Elins Research Club Website",
     description:
-      "A program in the form of a search column using various algorithms (vector Space Model, Cosine Similarity, Extended Boolean, Naive Bayes, KNN) based on HTML and CSS",
+      "Elins Research Club is a community of active electronics and instrumentation students that provides a platform for its members to engage in research and technological development.",
     tags: [
       {
-        name: "Python",
+        name: "PHP",
         color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
       },
       {
         name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Dataset",
         color: "pink-text-gradient",
       },
     ],
-    image: SEARCH,
+    image: ERC,
     source_code_link:
       "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
   },
-  {
-    name: "Alpit Shooters",
-    description:
-      "Alpit Shooter is a Third Person Shooter (TPS) Windows platform based where set in carnaval event. Player aim to score point by hit on military target in game.",
-    tags: [
-      {
-        name: "Unity",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Blender",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Illustrator",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ALPIT,
-    source_code_link: "https://github.com/gghozzit/AlpitShooter_Game.git",
-  },
-  {
-    name: "Kopma Application",
-    description:
-      "Multi-Platform sales application built using Flutter with the Dart language, this application provides sales, purchase, and transaction.",
-    tags: [
-      {
-        name: "Flutter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Dart",
-        color: "green-text-gradient",
-      },
-      {
-        name: "AndroidStudio",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: KOPMA,
-    source_code_link: "https://github.com/gghozzit/kopma.git",
-  },
-  {
-    name: "My Other Project Results",
-    description:
-      "My other work is in the form of video editing using the Premiere Pro, Davinci, and After Effects applications. In the form of Aftermovie, Profile, Testimonial, and many more.",
-    tags: [
-      {
-        name: "PremierePro",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Davinci",
-        color: "green-text-gradient",
-      },
-      {
-        name: "AfterEffects",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: VIDEO,
-    source_code_link:
-      "https://drive.google.com/drive/folders/11K2cBeobQY35niWnlAu4xSzCMmjcaGdP?usp=drive_link",
-  },
+  // {
+  //   name: "Alpit Shooters",
+  //   description:
+  //     "Alpit Shooter is a Third Person Shooter (TPS) Windows platform based where set in carnaval event. Player aim to score point by hit on military target in game.",
+  //   tags: [
+  //     {
+  //       name: "Unity",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Blender",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Illustrator",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ALPIT,
+  //   source_code_link: "https://github.com/gghozzit/AlpitShooter_Game.git",
+  // },
+  // {
+  //   name: "Kopma Application",
+  //   description:
+  //     "Multi-Platform sales application built using Flutter with the Dart language, this application provides sales, purchase, and transaction.",
+  //   tags: [
+  //     {
+  //       name: "Flutter",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Dart",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "AndroidStudio",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: KOPMA,
+  //   source_code_link: "https://github.com/gghozzit/kopma.git",
+  // },
+  // {
+  //   name: "My Other Project Results",
+  //   description:
+  //     "My other work is in the form of video editing using the Premiere Pro, Davinci, and After Effects applications. In the form of Aftermovie, Profile, Testimonial, and many more.",
+  //   tags: [
+  //     {
+  //       name: "PremierePro",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Davinci",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "AfterEffects",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: VIDEO,
+  //   source_code_link:
+  //     "https://drive.google.com/drive/folders/11K2cBeobQY35niWnlAu4xSzCMmjcaGdP?usp=drive_link",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
