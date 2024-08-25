@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo-hasani.png";
 import backend from "./SK/VIDEO.png";
 import creator from "./SK/DATA.png";
 import mobile from "./SK/GRAPHIC.png";
