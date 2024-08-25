@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import backend from "./SK/VIDEO.png";
 import creator from "./SK/DATA.png";
 import mobile from "./SK/GRAPHIC.png";
+import ai from "./SK/ai.png";
 import web from "./SK/CODE.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -56,6 +57,7 @@ export {
   web,
   github,
   menu,
+  ai,
   close,
   css,
   docker,

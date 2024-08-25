@@ -41,6 +41,7 @@ import {
   IWMS,
   SAVEFOREST,
   ERC,
+  ai,
 } from "../assets";
 
 export const navLinks = [
@@ -59,7 +60,7 @@ export const navLinks = [
   {
     id: "LinkedIn",
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/ahmad-ghozali-7293ba280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    url: "https://www.linkedin.com/in/muhammadhasani/",
   },
 ];
 
@@ -74,7 +75,7 @@ const services = [
   },
   {
     title: "AI Engineer",
-    icon: meta,
+    icon: ai,
   },
   {
     title: "Project Manager",
@@ -299,70 +300,73 @@ const projects = [
     source_code_link:
       "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
   },
-  // {
-  //   name: "Alpit Shooters",
-  //   description:
-  //     "Alpit Shooter is a Third Person Shooter (TPS) Windows platform based where set in carnaval event. Player aim to score point by hit on military target in game.",
-  //   tags: [
-  //     {
-  //       name: "Unity",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Blender",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Illustrator",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: ALPIT,
-  //   source_code_link: "https://github.com/gghozzit/AlpitShooter_Game.git",
-  // },
-  // {
-  //   name: "Kopma Application",
-  //   description:
-  //     "Multi-Platform sales application built using Flutter with the Dart language, this application provides sales, purchase, and transaction.",
-  //   tags: [
-  //     {
-  //       name: "Flutter",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Dart",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "AndroidStudio",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: KOPMA,
-  //   source_code_link: "https://github.com/gghozzit/kopma.git",
-  // },
-  // {
-  //   name: "My Other Project Results",
-  //   description:
-  //     "My other work is in the form of video editing using the Premiere Pro, Davinci, and After Effects applications. In the form of Aftermovie, Profile, Testimonial, and many more.",
-  //   tags: [
-  //     {
-  //       name: "PremierePro",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Davinci",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "AfterEffects",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: VIDEO,
-  //   source_code_link:
-  //     "https://drive.google.com/drive/folders/11K2cBeobQY35niWnlAu4xSzCMmjcaGdP?usp=drive_link",
-  // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const honors = [
+  {
+    name: "Integrated Watershed Monitoring System",
+    description:
+      "IWMS is a monitoring website featuring three concurrent monitoring systems: Modified Simple Rain Gauge Device (MOdAthus), Mobile Air Pollution Monitoring System and Instrumentation (SiPuber), and Water Quality Monitoring System (WaterQ). Please note that it can only be accessed on a laptop or PC.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: IWMS,
+    source_code_link: "https://github.com/gghozzit/SellingAssetsNusantara.git",
+  },
+  {
+    name: "Save Forest",
+    description:
+      "A website-based news platform built using PHP and MySQL as the database, a display is available for users and an admin dashboard used to manage content on news channels.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootsrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: SAVEFOREST,
+    source_code_link: "https://github.com/gghozzit/KanalBerita.git",
+  },
+  {
+    name: "Elins Research Club Website",
+    description:
+      "Elins Research Club is a community of active electronics and instrumentation students that provides a platform for its members to engage in research and technological development.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ERC,
+    source_code_link:
+      "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, honors };

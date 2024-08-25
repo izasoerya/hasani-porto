@@ -19,7 +19,8 @@ const Hero = () => {
             Hello, I'm <span className="text-secondary">Hasani!</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-tertiary`}>
-            Developer, Electrical Engineer, <br className="sm:block hidden" />
+            Software Developer, Electrical Engineer,{" "}
+            <br className="sm:block hidden" />
             and Project Manager
           </p>
         </div>
