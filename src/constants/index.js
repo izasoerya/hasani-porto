@@ -304,9 +304,8 @@ const projects = [
 
 const honors = [
   {
-    name: "Integrated Watershed Monitoring System",
-    description:
-      "IWMS is a monitoring website featuring three concurrent monitoring systems: Modified Simple Rain Gauge Device (MOdAthus), Mobile Air Pollution Monitoring System and Instrumentation (SiPuber), and Water Quality Monitoring System (WaterQ). Please note that it can only be accessed on a laptop or PC.",
+    name: "1st Place in the Millenial Creative Enterpreneur Business Plan",
+    description: "BAZNAS DKI Jakarta",
     tags: [
       {
         name: "JavaScript",
@@ -325,9 +324,8 @@ const honors = [
     source_code_link: "https://github.com/gghozzit/SellingAssetsNusantara.git",
   },
   {
-    name: "Save Forest",
-    description:
-      "A website-based news platform built using PHP and MySQL as the database, a display is available for users and an admin dashboard used to manage content on news channels.",
+    name: "Winner of the Impact-Driven Business Competition in the Student Business Pitch category",
+    description: "Team ZONA - Fortia Strategic Partner ",
     tags: [
       {
         name: "PHP",
@@ -346,9 +344,75 @@ const honors = [
     source_code_link: "https://github.com/gghozzit/KanalBerita.git",
   },
   {
-    name: "Elins Research Club Website",
+    name: "Finalist in PIMNAS 36 with the Invention scheme",
     description:
-      "Elins Research Club is a community of active electronics and instrumentation students that provides a platform for its members to engage in research and technological development.",
+      "Saveforest.ai: Monitoring and Extinguishing Land Forest Fires with E-Nose-Based UAVs and Machine Learning",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ERC,
+    source_code_link:
+      "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
+  },
+  {
+    name: "Funding for Student Creativity Program in the field of Innovative work",
+    description:
+      "ADEM: Internet of Things-Based Smart Sprinkle to Prevent Heat Stress in Chickens",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ERC,
+    source_code_link:
+      "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
+  },
+  {
+    name: "Incentive Winner of Student Creativity Program for Scientific Writing (PKM-AI)",
+    description:
+      "Hemosense 3 In 1: As A Detection Tool For Blood Sugar, Cholesterol, And Uric Acid Non-Invasively With Photoacoustic Method. Spectroscopy ",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ERC,
+    source_code_link:
+      "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
+  },
+  {
+    name: "Funding for Student Creativity Program in the field of creative work",
+    description:
+      "PreciAIs: Utilization of Artificial Intelligence for Precision Horticultural Agriculture Precision ",
     tags: [
       {
         name: "PHP",
