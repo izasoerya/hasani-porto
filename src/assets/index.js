@@ -35,11 +35,13 @@ import BUDAK from "./company/BUDAK.png";
 import frogs from "./company/frogs.png";
 import baznas from "./company/baznas.png";
 import BCA from "./company/BCA.png";
+import BSI from "./company/bsi.png";
 import gemabangun from "./company/gemabangun.png";
 import fortia from "./company/fortia.png";
 import pimnas from "./company/pimnas.png";
 import pkm from "./company/pkm.png";
 import fmipa from "./company/fmipa.png";
+import HKI from "./company/HKI.png";
 
 import carrent from "./carrent.png";
 import IWMS from "./Project/iwms.jpeg";
@@ -85,6 +87,8 @@ export {
   jobit,
   tripguide,
   BCA,
+  BSI,
+  HKI,
   frogs,
   gemabangun,
   fortia,

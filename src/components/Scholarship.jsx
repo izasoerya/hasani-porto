@@ -5,14 +5,14 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { awards } from "../constants";
+import { honors } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const AwardCard = ({ index, name, description, image, source_code_link }) => {
+const HonorCard = ({ index, name, description, image, source_code_link }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="flex-1" // Ensure the card can grow
+      className="flex-1 flex justify-center items-center"
     >
       <Tilt
         options={{
@@ -20,8 +20,8 @@ const AwardCard = ({ index, name, description, image, source_code_link }) => {
           scale: 1,
           speed: 450,
         }}
-        className="bg-secondary p-3 rounded-xl sm:w-[200px] w-full flex flex-col"
-        style={{ height: "100%" }} // Make sure the Tilt component stretches to full height
+        className="bg-secondary p-3 rounded-xl sm:w-[200px] w-full flex flex-col justify-left items-left"
+        style={{ height: "100%" }}
       >
         <div className="relative w-full h-[100px] flex justify-center items-center">
           <div className="w-20 h-20 bg-primary rounded-full flex justify-center items-center">
@@ -33,19 +33,18 @@ const AwardCard = ({ index, name, description, image, source_code_link }) => {
           </div>
         </div>
 
-        <div className="mt-3 flex-grow">
-          {" "}
-          <h3 className="text-white font-bold text-[18px]">{name}</h3>
-          <p className="mt-1 text-white text-[12px]">{description}</p>
+        <div className="mt-3 flex-grow flex flex-col justify-top-left items-left">
+          <h3 className="text-white font-bold text-[18px] text-left">{name}</h3>
+          <p className="mt-1 text-white text-[12px] text-left">{description}</p>
         </div>
 
-        {source_code_link && (
+        {source_code_link && source_code_link.trim() !== "" && (
           <div className="mt-3">
             <a
               href={source_code_link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 text-[12px] underline"
+              className="text-blue-500 text-[12px] underline text-left"
             >
               View Documentation
             </a>
@@ -60,8 +59,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Awards dan Funding</p>
-        <h2 className={`${styles.sectionHeadText}`}>My Achievements.</h2>
+        <p className={`${styles.sectionSubText} `}>Honor</p>
+        <h2 className={`${styles.sectionHeadText}`}>Scholarship and Patent.</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -70,16 +69,16 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           I have been recognized for my skills and accomplishments through
-          various funding and awards. These accolades reflect my ability to
-          excel in different domains, showcasing my dedication, expertise, and
-          commitment to excellence. Each award highlights my achievements and
-          the impact of my work in my field.
+          various scholarships and patents. These accolades reflect my ability
+          to excel in different domains, showcasing my dedication, expertise,
+          and commitment to excellence. Each award highlights my achievements
+          and the impact of my work in my field.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
-        {awards.map((award, index) => (
-          <AwardCard key={`award-${index}`} index={index} {...award} />
+      <div className="mt-20 grid grid-cols-4 gap-7">
+        {honors.map((honor, index) => (
+          <HonorCard key={`honor-${index}`} index={index} {...honor} />
         ))}
       </div>
     </>

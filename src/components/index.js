@@ -11,6 +11,7 @@ import Tech from "./Tech";
 import Experience from "./Experience";
 import Works from "./Works";
 import Honor from "./Honor";
+import Scholarship from "./Scholarship";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 
@@ -22,6 +23,7 @@ export {
   Experience,
   Works,
   Honor,
+  Scholarship,
   Feedbacks,
   Contact,
   EarthCanvas,

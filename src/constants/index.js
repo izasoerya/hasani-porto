@@ -47,6 +47,8 @@ import {
   pimnas,
   pkm,
   fmipa,
+  BSI,
+  HKI,
 } from "../assets";
 
 export const navLinks = [
@@ -145,8 +147,22 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Asisten Peneliti Badan Riset dan Inovasi Nasional (BRIN) RI",
-    company_name: "BRIN Bogor",
+    title: "Founder & CEO",
+    company_name: "PT Zona Tech Solutions",
+    icon: BRIN,
+    iconBg: "#383E56",
+    date: "July 2024 - Now",
+    points: [
+      "Managing MBKM students in making disaster technology prototypes.",
+      "Conceptualize the design of disaster technology based on IoT and Artificial Intelligence.",
+      "Prepared a Budget Plan for the construction of prototypes..",
+      "Respond to comments, messages and feedback from the audience quickly and professionally.",
+      "Creating a prediction model based on historical data and environmental variables.",
+    ],
+  },
+  {
+    title: "IT Research Assistant",
+    company_name: "Badan Riset dan Inovasi Nasional (BRIN) RI",
     icon: BRIN,
     iconBg: "#383E56",
     date: "July 2023 - Now",
@@ -319,7 +335,7 @@ const projects = [
   },
 ];
 
-const honors = [
+const awards = [
   {
     name: "1st Place in the Millenial Creative Enterpreneur Business Plan",
     description: "BAZNAS DKI Jakarta",
@@ -403,4 +419,68 @@ const honors = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, honors };
+const honors = [
+  {
+    name: "Awardee Badan Amil Zakat Nasional Scholarship",
+    description: "Badan Amil Zakat Nasional (BAZNAS)",
+    image: baznas,
+    source_code_link: "",
+  },
+  {
+    name: "Awardee Bakti BCA Development Program and Scholarship",
+    description: "Bank Central Asia (BCA)",
+    image: BCA,
+    source_code_link: "",
+  },
+  {
+    name: "Awardee BSI Talenta Scholarship Program",
+    description: "Bank Syariah Indonesia (BSI)",
+    image: BSI,
+    source_code_link: "",
+  },
+  {
+    name: "ALAT PEMANTAU POSTUR TUBUH ERGONOMIS, SUHU, PENCAHAYAAN, DAN KELEMBABAN DI RUANG PENYIMPANAN REKAM MEDIS BERBASIS KECERDASAN BUATAN",
+    description: "Patent Number: IDS000007359",
+    image: HKI,
+    source_code_link:
+      "https://paten.dgip.go.id/#/fp/53616c7465645f5f89a4930a812c47d5d70bed9f7d9b28d0080f234d6789aa24",
+  },
+  {
+    name: "Aplikasi Mobile HemoSense 3 In 1: Alat Deteksi Kadar Gula Darah, Kolesterol, Dan Asam Urat Non-invasive Dengan Metode Photoacoustic Spectroscopy",
+    description: "Patent Number: 000557502",
+    image: HKI,
+    source_code_link:
+      "https://e-hakcipta.dgip.go.id/index.php/c?code=NTg5NTcwZjFhYmE3YzZkMGFjOWY0M2FlNjRkOGY4NTgK",
+  },
+  {
+    name: "Ground Control System Saveforest.ai Land Forest Fire Monitoring And Extinguishing",
+    description: "Patent Number: 000534749",
+    image: HKI,
+    source_code_link:
+      "https://e-hakcipta.dgip.go.id/index.php/c?code=Yzc4ZDRiMjQ0MjkyNzNiMWFkMDQxNDAyMGE0Mzc5MTQK",
+  },
+  {
+    name: "Detektor Uap Senyawa Polimer Dan Polutan Berbahaya Dengan Instrumen Cerdas Berbasis Internet Of Things (IOT)",
+    description: "Patent Number: 000357715",
+    image: HKI,
+    source_code_link:
+      "https://e-hakcipta.dgip.go.id/index.php/c?code=OGU1MGU3MzVkZWIzYTNjZmY3NTc4ZGVjMmNlNTEyOTYK",
+  },
+  {
+    name: "Desain Industri Kaki Peraga Edukasi Pijat Refleksi Tunanetra",
+    description: "Patent Number: IDD000063324",
+    image: HKI,
+    source_code_link:
+      "https://desainindustri.dgip.go.id/#/fp/53616c7465645f5f5badda92e67067994ff51523ed136f4153a13ccfa63d097e",
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  awards,
+  honors,
+};
