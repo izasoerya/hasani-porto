@@ -43,6 +43,10 @@ import {
   ERC,
   ai,
   gemabangun,
+  fortia,
+  pimnas,
+  pkm,
+  fmipa,
 } from "../assets";
 
 export const navLinks = [
@@ -320,130 +324,83 @@ const honors = [
   {
     name: "1st Place in the Millenial Creative Enterpreneur Business Plan",
     description: "BAZNAS DKI Jakarta",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Next JS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Docker",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: IWMS,
-    source_code_link: "https://github.com/gghozzit/SellingAssetsNusantara.git",
+    image: baznas,
+    source_code_link:
+      "https://drive.google.com/file/d/1jAdOIx_3hvo-lS1S4xC4eNtopi4Zn540/view",
   },
   {
     name: "Winner of the Impact-Driven Business Competition in the Student Business Pitch category",
     description: "Team ZONA - Fortia Strategic Partner ",
-    tags: [
-      {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MySQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Bootsrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: SAVEFOREST,
-    source_code_link: "https://github.com/gghozzit/KanalBerita.git",
+
+    image: fortia,
+    source_code_link: "https://www.instagram.com/p/C0TqKrdPrfD/?img_index=3",
   },
   {
     name: "Finalist in PIMNAS 36 with the Invention scheme",
     description:
       "Saveforest.ai: Monitoring and Extinguishing Land Forest Fires with E-Nose-Based UAVs and Machine Learning",
-    tags: [
-      {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ERC,
+
+    image: pimnas,
     source_code_link:
-      "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
+      "https://drive.google.com/file/d/17egpdJNpCzDo2wNp6GcsAc9ZYv2NSHD4/view?usp=sharing",
   },
   {
     name: "Funding for Student Creativity Program in the field of Innovative work",
     description:
       "ADEM: Internet of Things-Based Smart Sprinkle to Prevent Heat Stress in Chickens",
-    tags: [
-      {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ERC,
+    image: pkm,
     source_code_link:
-      "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
+      "https://drive.google.com/file/d/1gB4nk7uWTki5-wsbJmvWAY3Ey_gsMNyT/view?usp=drive_link",
   },
   {
     name: "Incentive Winner of Student Creativity Program for Scientific Writing (PKM-AI)",
     description:
       "Hemosense 3 In 1: As A Detection Tool For Blood Sugar, Cholesterol, And Uric Acid Non-Invasively With Photoacoustic Method. Spectroscopy ",
-    tags: [
-      {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ERC,
+    image: pkm,
     source_code_link:
-      "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
+      "https://drive.google.com/file/d/1_OEedD8MEwTagWA_LdJRBjc_17rGv0Sr/view?usp=drive_link",
   },
   {
     name: "Funding for Student Creativity Program in the field of creative work",
     description:
-      "PreciAIs: Utilization of Artificial Intelligence for Precision Horticultural Agriculture Precision ",
-    tags: [
-      {
-        name: "PHP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ERC,
+      "PreciAIs: Utilization of Artificial Intelligence for Precision Horticultural Agriculture Precision",
+
+    image: pkm,
     source_code_link:
-      "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
+      "https://drive.google.com/file/d/1XlzXNWi1mI9dNeNgbCGzrXNBoanzXpda/view?usp=drive_link",
+  },
+  {
+    name: "Winner PIMNAS 35 bronze",
+    description:
+      "HemoSense 3 in 1: A Non-invasive Detection Tool for Blood Sugar, Cholesterol, and Uric Acid Levels with the Photoacoustic Spectroscopy Method",
+    image: pimnas,
+    source_code_link:
+      "https://drive.google.com/file/d/1lGBLzclGj2VmGEqYpHtcEaZFleSrK7Ta/view?usp=sharing",
+  },
+  {
+    name: "Winner of the “MOST AMAZING RESEARCH OF THE YEAR",
+    description:
+      "Nomination Appreciation Night for the UGM Faculty of Mathematics and Natural Sciences",
+
+    image: fmipa,
+    source_code_link:
+      "https://drive.google.com/file/d/1ieHAtgHQ3mHgyj5hglTrVuJjBDHlUmXi/view?usp=drive_link",
+  },
+  {
+    name: "PIMNAS Finalists 35 schemes of Application of Science and Technology",
+    description:
+      " Internet of Things (IoT) Based Lighting System to Increase Productivity and Animal Welfare Broilers",
+    image: pimnas,
+    source_code_link:
+      "https://drive.google.com/file/d/1v5LHcxjlT80Z8SwRqmg1x8kuybXHZDtZ/view?usp=sharing",
+  },
+  {
+    name: "Funding for Student Creativity Program in the field of creative work",
+    description:
+      "Smart Massage Tools: Microcontroller Based Smart Pedestal Foot as an Educational Tool for Reflexology Nerve Pointing for Blind Masseurs ",
+    image: pkm,
+    source_code_link:
+      "https://drive.google.com/file/d/1Yqjv5vrDTpNZsHO-W2qKfLtXBiQhCGoq/view?usp=drive_link",
   },
 ];
 

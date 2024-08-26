@@ -36,6 +36,10 @@ import frogs from "./company/frogs.png";
 import baznas from "./company/baznas.png";
 import BCA from "./company/BCA.png";
 import gemabangun from "./company/gemabangun.png";
+import fortia from "./company/fortia.png";
+import pimnas from "./company/pimnas.png";
+import pkm from "./company/pkm.png";
+import fmipa from "./company/fmipa.png";
 
 import carrent from "./carrent.png";
 import IWMS from "./Project/iwms.jpeg";
@@ -83,6 +87,10 @@ export {
   BCA,
   frogs,
   gemabangun,
+  fortia,
+  pimnas,
+  pkm,
+  fmipa,
   baznas,
   IWMS,
   SAVEFOREST,

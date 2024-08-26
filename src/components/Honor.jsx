@@ -8,60 +8,49 @@ import { SectionWrapper } from "../hoc";
 import { honors } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const HonorCard = ({
-  index,
-  name,
-  description,
-  tags,
-  image,
-  source_code_link,
-}) => {
+const HonorCard = ({ index, name, description, image, source_code_link }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="flex-1" // Ensure the card can grow
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-secondary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-secondary p-3 rounded-xl sm:w-[200px] w-full flex flex-col"
+        style={{ height: "100%" }} // Make sure the Tilt component stretches to full height
       >
-        <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
-
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="bg-secondary w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+        <div className="relative w-full h-[100px] flex justify-center items-center">
+          <div className="w-20 h-20 bg-primary rounded-full flex justify-center items-center">
+            <img
+              src={image}
+              alt="honor_icon"
+              className="w-2/3 h-2/3 object-contain"
+            />
           </div>
         </div>
 
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-white text-[14px]">{description}</p>
+        <div className="mt-3 flex-grow">
+          {" "}
+          <h3 className="text-white font-bold text-[18px]">{name}</h3>
+          <p className="mt-1 text-white text-[12px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
+        {source_code_link && (
+          <div className="mt-3">
+            <a
+              href={source_code_link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 text-[12px] underline"
             >
-              #{tag.name}
-            </p>
-          ))}
-        </div>
+              View Documentation
+            </a>
+          </div>
+        )}
       </Tilt>
     </motion.div>
   );
@@ -90,7 +79,7 @@ const Works = () => {
 
       <div className="mt-20 flex flex-wrap gap-7">
         {honors.map((honor, index) => (
-          <HonorCard key={`project-${index}`} index={index} {...honor} />
+          <HonorCard key={`honor-${index}`} index={index} {...honor} />
         ))}
       </div>
     </>
