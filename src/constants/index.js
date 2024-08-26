@@ -49,6 +49,7 @@ import {
   fmipa,
   BSI,
   HKI,
+  ZTS,
 } from "../assets";
 
 export const navLinks = [
@@ -149,7 +150,7 @@ const experiences = [
   {
     title: "Founder & CEO",
     company_name: "PT Zona Tech Solutions",
-    icon: BRIN,
+    icon: ZTS,
     iconBg: "#383E56",
     date: "July 2024 - Now",
     points: [

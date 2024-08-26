@@ -42,6 +42,7 @@ import pimnas from "./company/pimnas.png";
 import pkm from "./company/pkm.png";
 import fmipa from "./company/fmipa.png";
 import HKI from "./company/HKI.png";
+import ZTS from "./company/ZTS.png";
 
 import carrent from "./carrent.png";
 import IWMS from "./Project/iwms.jpeg";
@@ -89,6 +90,7 @@ export {
   BCA,
   BSI,
   HKI,
+  ZTS,
   frogs,
   gemabangun,
   fortia,
