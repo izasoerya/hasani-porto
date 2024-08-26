@@ -273,7 +273,7 @@ const projects = [
       },
     ],
     image: IWMS,
-    source_code_link: "https://github.com/gghozzit/SellingAssetsNusantara.git",
+    source_code_link: "https://iwms.site/",
   },
   {
     name: "Save Forest",
@@ -294,7 +294,7 @@ const projects = [
       },
     ],
     image: SAVEFOREST,
-    source_code_link: "https://github.com/gghozzit/KanalBerita.git",
+    source_code_link: "https://sites.saveforest.cloud/",
   },
   {
     name: "Elins Research Club Website",
@@ -315,8 +315,7 @@ const projects = [
       },
     ],
     image: ERC,
-    source_code_link:
-      "https://github.com/gghozzit/SearchWithVariousAlgorithms.git",
+    source_code_link: "https://erc.elins.id/",
   },
 ];
 
