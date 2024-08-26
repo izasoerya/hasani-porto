@@ -154,11 +154,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2024 - Now",
     points: [
-      "Managing MBKM students in making disaster technology prototypes.",
-      "Conceptualize the design of disaster technology based on IoT and Artificial Intelligence.",
-      "Prepared a Budget Plan for the construction of prototypes..",
-      "Respond to comments, messages and feedback from the audience quickly and professionally.",
-      "Creating a prediction model based on historical data and environmental variables.",
+      "Spearheaded the vision to transform the agriculture sector through innovative technological solutions.",
+      "Led the development and implementation of cutting-edge IoT, AI, and digital solutions for agriculture, livestock, and aquaculture sectors.",
+      "Directed the creation of precision solutions to address end-to-end challenges in the agroindustry.",
+      "Built and managed a comprehensive and integrated platform ecosystem for agroindustry stakeholders.",
+      "Established partnerships with government, academia, and industry leaders to advance digital agriculture research and development.",
     ],
   },
   {
