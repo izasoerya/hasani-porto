@@ -42,6 +42,7 @@ import {
   SAVEFOREST,
   ERC,
   ai,
+  gemabangun,
 } from "../assets";
 
 export const navLinks = [
@@ -141,7 +142,7 @@ const technologies = [
 const experiences = [
   {
     title: "Asisten Peneliti Badan Riset dan Inovasi Nasional (BRIN) RI",
-    company_name: "BRIN Yogyakarta",
+    company_name: "BRIN Bogor",
     icon: BRIN,
     iconBg: "#383E56",
     date: "July 2023 - Now",
@@ -155,16 +156,41 @@ const experiences = [
   },
   {
     title: "Product Manager and RND Specialist",
-    company_name: "BRIN Bogor",
+    company_name: "Merdeka Belajar - Kampus Merdeka Batch 3",
     icon: BRIN,
     iconBg: "#E6DEDD",
-    date: "August 2023 - January 2024",
+    date: "July 2023 - January 2024",
     points: [
       "Effectively led three project areas: Air Quality Monitoring, Water Quality Monitoring, and Early Detection of Landslide And Flood Disasters.",
       "Efficiently planned the conceptual framework for the development of prototypes for three projects to be implemented.",
       "Accomplished coordination with the Executive Manager of BRIN for the commercialization of the project.",
       "Successfully conceptualized the development of a website and application for the prototypes.",
       "Secured patents for the three projects.",
+    ],
+  },
+  {
+    title: "Product Manager and Electrical Engineer",
+    company_name: "Merdeka Belajar - Kampus Merdeka Batch 2",
+    icon: BRIN,
+    iconBg: "#E6DEDD",
+    date: "February 2023 - June 2023",
+    points: [
+      "Time Management and Organization Training for Balancing Studies with Program Activities",
+      "Leadership and Communication Training through Engagement in Mentoring and Group Discussions",
+      "Critical Thinking and Problem-Solving Training through Community Service Projects",
+    ],
+  },
+  {
+    title: "Product Manager and Electrical Engineer",
+    company_name: "Merdeka Belajar - Kampus Merdeka Batch 1",
+    icon: BRIN,
+    iconBg: "#E6DEDD",
+    date: "August 2022 - December 2022",
+    points: [
+      "Team Collaboration Training, fostering a culture of collaboration and building high-performing teams.",
+      "Time Management Training, providing individuals with practical strategies for optimal productivity.",
+      "Comprehensive Critical Thinking Training, enhancing analytical skills and problem-solving abilities.",
+      "Leadership Training with a focus on various leadership styles.",
     ],
   },
   {
@@ -182,28 +208,16 @@ const experiences = [
     ],
   },
   {
-    title: "Awardee Badan Amil Zakat Nasional Scholarship",
-    company_name: "Badan Amil Zakat Nasional (BAZNAS)",
-    icon: baznas,
-    iconBg: "#E6DEDD",
-    date: "September 2021 - October 2023",
+    title: "Internship Electrical Engineering",
+    company_name: "PT Gemabangun Pronaperkasa",
+    icon: gemabangun,
+    iconBg: "#383E56",
+    date: "March 2019 - April 2020",
     points: [
-      "Time Management and Organization Training for Balancing Studies with Program Activities",
-      "Leadership and Communication Training through Engagement in Mentoring and Group Discussions",
-      "Critical Thinking and Problem-Solving Training through Community Service Projects",
-    ],
-  },
-  {
-    title: "Awardee Bakti BCA Development Program and Scholarship",
-    company_name: "Bank Central Asia (BCA)",
-    icon: BCA,
-    iconBg: "#E6DEDD",
-    date: "August 2022 - September 2023",
-    points: [
-      "Team Collaboration Training, fostering a culture of collaboration and building high-performing teams.",
-      "Time Management Training, providing individuals with practical strategies for optimal productivity.",
-      "Comprehensive Critical Thinking Training, enhancing analytical skills and problem-solving abilities.",
-      "Leadership Training with a focus on various leadership styles.",
+      "Successfully designed PCB and Manufactured Electronics tester system.",
+      "Provided support and maintenance for 20 vendor companies.",
+      "Conducted a meeting with vendor companies to discuss the conceptualization of the tool to be developed.",
+      "Achieved the recognition as the best internship student.",
     ],
   },
 ];

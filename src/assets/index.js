@@ -35,6 +35,7 @@ import BUDAK from "./company/BUDAK.png";
 import frogs from "./company/frogs.png";
 import baznas from "./company/baznas.png";
 import BCA from "./company/BCA.png";
+import gemabangun from "./company/gemabangun.png";
 
 import carrent from "./carrent.png";
 import IWMS from "./Project/iwms.jpeg";
@@ -81,6 +82,7 @@ export {
   tripguide,
   BCA,
   frogs,
+  gemabangun,
   baznas,
   IWMS,
   SAVEFOREST,
